@@ -1,8 +1,0 @@
-command-message: Unknown command. Type "help" for help.
-execute-commands:
-    - tell %sender% I can't let you do that, Star Fox!
-command-triggers:
-    stop:
-        - kick %sender%
-allow-commands:
-    - home

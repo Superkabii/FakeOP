@@ -1,0 +1,10 @@
+#The message that fake operators will see upon executing a command:
+command-message: Unknown command. Type "help" for help.
+
+#Set this to true to enable usage of the execute-commands config section.
+enable-commands: false
+
+#Commands to be executed upon a fake operator using a command. Use %sender% in place of the user's name.
+#Example: - mute %sender%.
+execute-commands:
+- example %sender% command
