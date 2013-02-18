@@ -1,0 +1,19 @@
+name: FakeOP
+main: net.legitmine.FakeOP
+version: 2.2
+description: Fake operator status.
+author: superkabii
+commands:
+   fakeop:
+       description: Sets a player as a fake OP.
+       usage: /<command> [Player]
+       permission: fakeop.op
+   fakedeop:
+       description: Removes fake OP status from a player.
+       usage: /<command> [Player]
+       aliases: [defakeop]
+       permission: fakeop.op
+permissions:
+   fakeop.op:
+       description: Set or remove fake operator status on a player.
+       default: op
